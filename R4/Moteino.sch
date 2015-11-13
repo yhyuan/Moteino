@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -3394,10 +3394,10 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
 <part name="+" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
 <part name="P+3" library="SparkFun" deviceset="VCC" device="" value="3.3V"/>
-<part name="C5" library="LowPowerLab" deviceset="CAP" device="0603-CAP" value="0.1"/>
+<part name="C5" library="LowPowerLab" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="R1" library="LowPowerLab" deviceset="RESISTOR" device="0603-RES" value="10k"/>
-<part name="C1" library="LowPowerLab" deviceset="CAP" device="0603-CAP" value="0.1"/>
-<part name="C4" library="LowPowerLab" deviceset="CAP" device="0603-CAP" value="0.1"/>
+<part name="C1" library="LowPowerLab" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C4" library="LowPowerLab" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="C2" library="LowPowerLab" deviceset="CAP" device="0603-CAP" value="1u"/>
 <part name="C3" library="LowPowerLab" deviceset="CAP" device="0805-CAP" value="10u"/>
 <part name="U$2" library="LowPowerLab" deviceset="LED" device="0603"/>
